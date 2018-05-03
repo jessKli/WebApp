@@ -5,9 +5,9 @@ import java.util.Scanner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import bank.BankService;
-import bank.Constants;
-import bank.Customer;
+import se.klinc.bank.Constants;
+import se.klinc.bank.dao.Customer;
+import se.klinc.bank.service.BankService;
 
 public class App {
 	private static  BankService bankService;
